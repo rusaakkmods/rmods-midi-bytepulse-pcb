@@ -1,0 +1,60 @@
+# KiCad Project gitignore
+
+# Backup files
+*-backups/
+*.bak
+*.bck
+*~
+_autosave-*
+*.tmp
+
+# Temporary files
+*.000
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+
+# Export files
+*.zip
+*.csv
+*.tsv
+*.xml
+*.txt
+*.ps
+*.pdf
+*.gbr
+*.dxf
+*.svg
+*.pos
+*.drill
+*.rpt
+*.net
+*.dsn
+*.ses
+
+# Gerber output folders
+gerbers/
+Gerbers/
+gerber/
+Gerber/
+fab/
+fabrication/
+
+# BOM output
+bom/
+BOM/
+*.xlsx
+*.ods
+
+# Python cache (for KiCad plugins)
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Documents folder (custom exclusion)
+documents/
